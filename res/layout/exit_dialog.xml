@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/exitDialogLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/background_color"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Please Rate"
+        android:textColor="#000000"
+        android:textSize="22dp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/textDisc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textTitle"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="Do you want to rate our app?"
+        android:textColor="@color/orange"
+        android:textSize="20dp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <Button
+        android:id="@+id/butOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textDisc"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:text="YES"
+        android:textStyle="bold"
+        android:width="120dp" />
+
+    <Button
+        android:id="@+id/butCancle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textDisc"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@+id/butOk"
+        android:text="NO"
+        android:textStyle="bold"
+        android:width="120dp" />
+
+</RelativeLayout>

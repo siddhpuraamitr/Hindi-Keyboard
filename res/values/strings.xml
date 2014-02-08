@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hindi Dictionary</string>
+    <string name="English_Pref_Color_Key">eng_key_color</string>
+    <string name="Meaning_Pref_Color_Key">mean_key_color</string>
+    <string name="user_preference_text">Options</string>
+    <string name="english_word_color">English Word Color</string>
+    <string name="notification">Notification</string>
+    <string name="more_apps_description">Download more useful apps</string>
+    <string name="hindi_word_color">Hindi Word Color</string>
+    <string name="small">Small</string>
+    <string name="medium">Medium</string>
+    <string name="long1">Long</string>
+    <string name="text_size">Text Size</string>
+
+</resources>

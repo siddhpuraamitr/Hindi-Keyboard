@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hebrwKeyboardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/xsubLayout"
+    android:layout_gravity="bottom"
+    android:orientation="vertical"
+    android:visibility="visible" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#3c3426"
+        android:clipChildren="true"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/medium" >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:baselineAligned="true"
+                    android:fitsSystemWindows="true"
+                    android:gravity="center_horizontal" >
+
+                    <com.igeniusdev.hindidictionary.widget.KeyboardButton
+                        android:id="@+id/xQ"
+                        style="@style/keyboard_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <com.igeniusdev.hindidictionary.widget.KeyboardButton
+                        android:id="@+id/xW"
+                        style="@style/keyboard_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:soundEffectsEnabled="true" />
+
+                    <com.igeniusdev.hindidictionary.widget.KeyboardButton
+                        android:id="@+id/xE"
+                        style="@style/keyboard_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fitsSystemWindows="true"
+                        android:soundEffectsEnabled="true" />
+
+                    <com.igeniusdev.hindidictionary.widget.KeyboardButton
+                        android:id="@+id/xR"
+                        style="@style/keyboard_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="marquee"
+                        android:fitsSystemWindows="true"
+                        android:soundEffectsEnabled="true" />
+
+                    <com.igeniusdev.hindidictionary.widget.KeyboardButton
+                        android:id="@+id/xT"
+                        style="@style/keyboard_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="marquee"
+                        android:fitsSystemWindows="true"
+                        android:soundEffectsEnabled="true" />
+
+                    <com.igeniusdev.hindidictionary.widget.KeyboardButton
+                        android:id="@+id/xY"
+                        style="@style/keyboard_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="marquee"
+                        android:fitsSystemWindows="true"
+                        android:soundEffectsEnabled="true" />
+
+                    <com.igeniusdev.hindidictionary.widget.KeyboardButton
+                        android:id="@+id/xU"
+                        style="@style/keyboard_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="marquee"
+                        android:fitsSystemWindows="true"
+                        android:soundEffectsEnabled="true" />
+
+                    <com.igeniusdev.hindidictionary.widget.KeyboardButton
+                        android:id="@+id/xI"
+                        style="@style/keyboard_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="marquee"
+                        android:fitsSystemWindows="true"
+                        android:soundEffectsEnabled="true" />
+
+                    <com.igeniusdev.hindidictionary.widget.KeyboardButton
+                        android:id="@+id/xO"
+                        style="@style/keyboard_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="marquee"
+                        android:fitsSystemWindows="true"
+                        android:soundEffectsEnabled="true" />
+
+                    <com.igeniusdev.hindidictionary.widget.KeyboardButton
+                        android:id="@+id/xP"
+                        style="@style/keyboard_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="marquee"
+                        android:fitsSystemWindows="true"
+                        android:soundEffectsEnabled="true" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center" >
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal" >
+
+                    <com.igeniusdev.hindidictionary.widget.KeyboardButton
+                        android:id="@+id/xA"
+                        style="@style/keyboard_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fitsSystemWindows="true"
+                        android:soundEffectsEnabled="true" />
+
+                    <com.igeniusdev.hindidictionary.widget.KeyboardButton
+                        android:id="@+id/xS"
+                        style="@style/keyboard_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fitsSystemWindows="true"
+                        android:soundEffectsEnabled="true" />
+
+                    <com.igeniusdev.hindidictionary.widget.KeyboardButton
+                        android:id="@+id/xD"
+                        style="@style/keyboard_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fitsSystemWindows="true"
+                        android:soundEffectsEnabled="true" />
+
+                    <com.igeniusdev.hindidictionary.widget.KeyboardButton
+                        android:id="@+id/xF"
+                        style="@style/keyboard_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fitsSystemWindows="true"
+                        android:soundEffectsEnabled="true" />
+
+                    <com.igeniusdev.hindidictionary.widget.KeyboardButton
+                        android:id="@+id/xG"
+                        style="@style/keyboard_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fitsSystemWindows="true"
+                        android:soundEffectsEnabled="true" />
+
+                    <com.igeniusdev.hindidictionary.widget.KeyboardButton
+                        android:id="@+id/xH"
+                        style="@style/keyboard_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fitsSystemWindows="true"
+                        android:soundEffectsEnabled="true" />
+
+                    <com.igeniusdev.hindidictionary.widget.KeyboardButton
+                        android:id="@+id/xJ"
+                        style="@style/keyboard_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fitsSystemWindows="true"
+                        android:soundEffectsEnabled="true" />
+
+                    <com.igeniusdev.hindidictionary.widget.KeyboardButton
+                        android:id="@+id/xK"
+                        style="@style/keyboard_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fitsSystemWindows="true"
+                        android:soundEffectsEnabled="true" />
+
+                    <com.igeniusdev.hindidictionary.widget.KeyboardButton
+                        android:id="@+id/xL"
+                        style="@style/keyboard_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fitsSystemWindows="true"
+                        android:soundEffectsEnabled="true" />
+
+                    <com.igeniusdev.hindidictionary.widget.KeyboardButton
+                        android:id="@+id/xS1"
+                        style="@style/keyboard_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fitsSystemWindows="true"
+                        android:soundEffectsEnabled="true" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_vertical"
+                android:fitsSystemWindows="true"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal" >
+
+                    <com.igeniusdev.hindidictionary.widget.KeyboardButton
+                        android:id="@+id/xS2"
+                        style="@style/keyboard_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fitsSystemWindows="true"
+                        android:soundEffectsEnabled="true" />
+
+                    <com.igeniusdev.hindidictionary.widget.KeyboardButton
+                        android:id="@+id/xZ"
+                        style="@style/keyboard_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fitsSystemWindows="true"
+                        android:soundEffectsEnabled="true" />
+
+                    <com.igeniusdev.hindidictionary.widget.KeyboardButton
+                        android:id="@+id/xX"
+                        style="@style/keyboard_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fitsSystemWindows="true"
+                        android:soundEffectsEnabled="true" />
+
+                    <com.igeniusdev.hindidictionary.widget.KeyboardButton
+                        android:id="@+id/xC"
+                        style="@style/keyboard_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fitsSystemWindows="true"
+                        android:soundEffectsEnabled="true" />
+
+                    <com.igeniusdev.hindidictionary.widget.KeyboardButton
+                        android:id="@+id/xV"
+                        style="@style/keyboard_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fitsSystemWindows="true"
+                        android:soundEffectsEnabled="true" />
+
+                    <com.igeniusdev.hindidictionary.widget.KeyboardButton
+                        android:id="@+id/xB"
+                        style="@style/keyboard_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fitsSystemWindows="true"
+                        android:soundEffectsEnabled="true" />
+
+                    <com.igeniusdev.hindidictionary.widget.KeyboardButton
+                        android:id="@+id/xN"
+                        style="@style/keyboard_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fitsSystemWindows="true"
+                        android:soundEffectsEnabled="true" />
+
+                    <com.igeniusdev.hindidictionary.widget.KeyboardButton
+                        android:id="@+id/xM"
+                        style="@style/keyboard_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fitsSystemWindows="true"
+                        android:soundEffectsEnabled="true" />
+
+                    <com.igeniusdev.hindidictionary.widget.KeyboardButton
+                        android:id="@+id/xS3"
+                        style="@style/keyboard_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fitsSystemWindows="true"
+                        android:soundEffectsEnabled="true" />
+
+                    <com.igeniusdev.hindidictionary.widget.KeyboardButton
+                        android:id="@+id/xBack"
+                        style="@style/keyboard_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/back_high"
+                        android:fitsSystemWindows="true"
+                        android:soundEffectsEnabled="true"
+                        android:tag="back" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fitsSystemWindows="true"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal" >
+
+                    <com.igeniusdev.hindidictionary.widget.KeyboardButton
+                        android:id="@+id/xChange"
+                        style="@style/keyboard_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/change"
+                        android:fitsSystemWindows="true"
+                        android:soundEffectsEnabled="true"
+                        android:tag="upper" />
+
+                    <com.igeniusdev.hindidictionary.widget.KeyboardButton
+                        android:id="@+id/xS4"
+                        style="@style/keyboard_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fitsSystemWindows="true"
+                        android:soundEffectsEnabled="true" />
+
+                    <com.igeniusdev.hindidictionary.widget.KeyboardButton
+                        android:id="@+id/xSpace"
+                        style="@style/keyboard_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fitsSystemWindows="true"
+                        android:soundEffectsEnabled="true"
+                        android:tag=" "
+                        android:text="|_____|" />
+
+                    <com.igeniusdev.hindidictionary.widget.KeyboardButton
+                        android:id="@+id/xS5"
+                        style="@style/keyboard_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fitsSystemWindows="true"
+                        android:soundEffectsEnabled="true" />
+
+                    <com.igeniusdev.hindidictionary.widget.KeyboardButton
+                        android:id="@+id/xS6"
+                        style="@style/keyboard_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fitsSystemWindows="true"
+                        android:soundEffectsEnabled="true" />
+
+                    <com.igeniusdev.hindidictionary.widget.KeyboardButton
+                        android:id="@+id/xNum"
+                        style="@style/keyboard_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fitsSystemWindows="true"
+                        android:soundEffectsEnabled="true"
+                        android:tag="num"
+                        android:text="12#" />
+
+                    <com.igeniusdev.hindidictionary.widget.KeyboardButton
+                        android:id="@+id/xDone"
+                        style="@style/keyboard_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/hide_high"
+                        android:fitsSystemWindows="true"
+                        android:soundEffectsEnabled="true"
+                        android:tag="done" />
+                </LinearLayout>
+            </TableRow>
+        </TableLayout>
+    </TableLayout>
+
+</RelativeLayout>

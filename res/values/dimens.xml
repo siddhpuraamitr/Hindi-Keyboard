@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="sliding_text_size">18sp</dimen>
+    <dimen name="small_text">14sp</dimen>
+    <dimen name="header_text">20sp</dimen>
+    <dimen name="question_text">25sp</dimen>
+    <dimen name="extra_small">5dp</dimen>
+    <dimen name="small">7dp</dimen>
+    <dimen name="medium">10dp</dimen>
+    <dimen name="large">15dp</dimen>
+    <dimen name="extra_large">40dp</dimen>
+    <dimen name="corner_radius">0dp</dimen>
+    <dimen name="tab_space_top">0dp</dimen>
+    <dimen name="tab_space">0dp</dimen>
+    <dimen name="tab_space_plus1">3dp</dimen>
+    <dimen name="tab_space_bottom_line">36sp</dimen>
+    <dimen name="tab_space_unselected_top">6sp</dimen>
+    <dimen name="ambilwarna_hsvHeight">240dp</dimen>
+    <dimen name="ambilwarna_hsvWidth">240dp</dimen>
+    <dimen name="ambilwarna_hueWidth">30dp</dimen>
+    <dimen name="ambilwarna_spacer">8dp</dimen>
+    <dimen name="slider_width">200dp</dimen>
+    <dimen name="keyboard_btn">11sp</dimen>
+
+</resources>
